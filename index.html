@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr-MA">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Auto École Meknes</title>
+        <meta name="description" content="Bienvenue sur l'un dès meilleurs auto écoles à Meknès. Maroc">
+        <meta name="keywords" content="auto,école,meknes,meknès,maroc,pour,femme,femmes,homme,hommes,chez,driss,jennoun,keltoum,mghari">
+        <meta name="author" content="Driss Keltoum">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css">
+        <link rel="stylesheet" crossorigin="anonymous" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    </head>
+    <body>
+        <div id="modal-container">
+            <div id="modal">
+                <br />
+                <h2>Informations!</h2>
+                <br />
+                <h3>Requirements:</h3>
+                <p>Avoir 50 ans+</p>
+                <p>Ëtre capable</p>
+                <p>un cartable.</p>
+                <p>des stylos.</p>
+                <p>des cahiers.</p>
+                <p>et LES LIVRES.</p>
+                <br />
+                <h3>Paiment:</h3>
+                <p>2 000dh directe.</p>
+                <p>ou</p>
+                <p>200dh pour chaque</p>
+                <p>mois pendant 1 an.</p>
+                <br />
+                <h3>Où et Quand:</h3>
+                <p>..................</p>
+                <p>..................</p>
+                <p>Meknès, Maroc.</p>
+                <p>À toutes les heures</p>
+                <p>normales de travail.</p>
+                <br />
+                <button id="close-modal" onclick="closeModal();">Ok</button>
+            </div>
+        </div>
+        <main>
+            <header>
+                <h2>Bienvenue à l'Auto École de Meknès!</h2>
+            </header>
+            <article>
+                <br />
+                <h2>Les Entraineurs:</h2>
+                <br />
+                <section id="f-trainer">
+                        <div class="">
+                            <img src="entraineur.jpg">
+                            <br />
+                            <h3 class="">Keltoum Mghari</h3>
+                            <br />
+                            <p>elle est professionnelle et sérieuse et parfois gentille. Son travail est très bon et elle t'apprendra vite</p> 
+                        </div>
+                        <br />
+                        <button id="f-btn" onclick="displayModal('F');">Je m'entraine chez elle</button>
+                    </section>
+                    <section id="m-trainer">
+                        <div>
+                            <img src="entraineur.jpg">
+                            <br />
+                            <h3 class="">Driss Jennoun</h3>
+                            <br />
+                            <p>il est professionnel et intelligent et surtout gentil. Son travail est très bon et il vous apprendra avec patience</p> 
+                        </div>
+                        <br />     
+                        <button id="m-btn" onclick="displayModal('M');">Je m'entraine chez lui</button>
+                    </section>
+            </article>
+            <footer>
+                <div class="divs">
+                    <ul>
+                        <li class="uls-title">Contact:</li>
+                        <li class="uls number"><i class="material-icons md">call</i> 06 xx xx xx xx</li>
+                        <li class="uls number"><i class="material-icons md">call</i> 06 61 48 77 23</li>
+                        <li class="uls"><i class="material-icons md">email</i> MeknesAutoEcole@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="divs">
+                    <ul>
+                        <li class="uls-title">Adresse:</li>
+                        <li class="uls">..................</li>
+                        <li class="uls">..................</li>
+                        <li class="uls">Meknès Maroc</li>
+                    </ul>
+                </div>
+                <div class="divs">
+                    <ul>
+                        <li class="uls-title">Social:</li>
+                        <li class="uls"><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="uls"><a href="https://www.youtube.com/channel/UCYxAzSSgLIY-4VFvzWSr0ZA" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                        <li class="uls number"><i class="fab fa-whatsapp" style="cursor:pointer;" onclick="showNumber();"></i></li>
+                    </ul>
+                </div>
+            </footer>
+        </main>
+        <script type="text/javascript" src="code.js"></script>
+    </body>
+</html>
